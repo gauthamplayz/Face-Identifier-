@@ -1,0 +1,51 @@
+body {
+    background-image: url("family.jpg")
+}
+
+#Realtime{
+    font-family: 'Lobster' , cursive ;
+    font-size: 30px;
+}
+
+.heading_div {
+    float: none;
+    background: white;
+    padding:10px ;
+    border-radius: 20px ;
+    color: black;
+    box-shadow: 5px 5px 18px black;
+}
+
+.heading_div2 {
+    font-size: 20px;
+}
+
+.result_para_tag {
+    box-shadow: 5px 5px 18px grey;
+    font-size: 20px;
+}
+
+.copy_right_footer {
+    position: fixed;
+    color:white;
+    background: black;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    line-height: 2;
+    font-size: 20px;
+}
+
+canvas {
+    animation-name:example ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 140px;
+
+
+}
+
+@keyframes example {
+    from{box-shadow: 10px 10px 38px yellow;}
+    to{box-shadow: 10px 10px 38px blue;}
+}
